@@ -1,0 +1,225 @@
+:root{
+    --verde: #91BF4B;
+
+}
+
+
+
+.clinica {
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+}
+
+.clinica img {
+    padding-right: 5px;
+}
+
+.clinica h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 0px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    margin-bottom: 60px;
+    background-color:rgba(255, 255, 255, 0.625);
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    color: black;
+
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li:hover{ 
+    transform: scale(1.05);
+    transition: .6s;
+    
+}
+
+li{
+    margin: 0px 10px;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.fale-conosco {
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    border-radius: 30px;
+    width: 50px;
+    background-color: #91BF4B;
+    color: white;
+    font-weight: 900;
+    
+}
+
+.principal{
+    background-image: url(img/principal.png);
+   height: 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.principal button{
+    padding: 10px 60px;
+    border: 1px solid transparent;
+    background-color: var(--verde);
+    border-radius: 20px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+button:hover{
+    cursor: pointer;
+    
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: .6s;
+}
+
+.clinica-familia {
+    border: 1px solid transparent;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: var(--verde);
+}
+
+.texto-principal {
+
+    margin-left: 70px;
+}
+
+.texto-principal h3{
+    font-size: 20px;
+    color: white;
+}
+
+.texto-principal p{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.sobre{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.sobre p {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre h3{
+    font-size: 25px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.servicos{
+    background-image: url(img/servicos.png);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.especialidades h3{
+    font-size: 40px;
+    color: var(--verde);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.especialidades p{
+    font-size: 20px;
+    color: #025159;
+    font-weight: 800;
+}
+
+.contato h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contato{
+    margin-top: 50px;
+}
+
+.contato img{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.mapa iframe{
+    height: 500px;
+    width: 700px;
+}
+
+.contato img:hover{
+    transform: scale(1.05);
+    transition: .6s;
+}
+
+.contato {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape{
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
